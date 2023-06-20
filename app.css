@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Montserrat:wght@300&family=Oswald:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.initial
+{
+    width: 100%;
+    height: 470px;
+    background-image: url('rhema-kallianpur-2W3bDp7K1oQ-unsplash.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+
+
+}
+.username
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-top: 0;
+    display: inline-block;
+}
+
+body
+{
+    margin: 0;
+    background-color: black;
+}
+#intro
+{
+    color: white;
+    font-size: larger;
+    margin: 20px;
+    /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Oswald', sans-serif;
+}
+#intro::first-letter
+{
+    color: yellowgreen;
+}
+#navi
+{
+    list-style-type: none;
+    float: left;
+
+
+}
+#main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+
+
+}
+#navi li{
+    display: inline-block;
+    padding: 0 3em;
+    color: whitesmoke;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2em;
+}
+#image
+{
+    padding: 0.3em 0;
+    margin: 0 1em;
+}
+#button
+{
+    font-size: 2em;
+    font-family: 'Dongle', sans-serif;
+}
+#naviga
+{
+    position: sticky;
+    top: 0;
+    border-bottom-width: 75%;
+    border-bottom-color: whitesmoke;
+    border-bottom-style: solid;
+}
+#navi li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main
+{
+    background-color: black;
+    color: whitesmoke;
+}
+main h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid whitesmoke;
+}
+main h1::first-letter
+{
+    color: yellowgreen;
+}
+
+.introdiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+h2
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+}
+h2::first-letter
+{
+    color: yellowgreen;
+}
+.para
+{
+    text-indent: 1em;
+    font-family: montserrat;
+    color: whitesmoke;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid whitesmoke; */
+
+    background-image: url("https://images.unsplash.com/photo-1513569771920-c9e1d31714af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+
+
+}
+#file
+{
+    display: none;
+}
+#choose
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 4px solid #9bf6ff;
+    padding: 1.2em;
+    font-size: 140%;
+    box-shadow: 4px 5px 5px red;
+    transition: all 611ms cubic-bezier(0.33, 1, 0.68, 1);
+    margin-bottom: 2em;
+}
+#choose:hover
+{
+    border-color: #dab6fc;
+    transform:translate(0,-9px) ;
+    color: #8ecae6;
+    cursor: pointer;
+    box-shadow: 6px 5px 5px #fcbf49;
+}
+#fileimg
+{
+    transition: all 2s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.input #fileimg:hover
+{
+    transform: rotate(1turn);
+}
+.end
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+
+}
+#end
+{
+    color: whitesmoke;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+#navi li a:hover
+{
+   cursor: pointer;
+   color: chocolate;
+}
+#button:hover
+{
+    cursor: pointer;
+}
+ form .input #qwert
+{
+  cursor: pointer;
+  color: black;
+  font-size: 1.7em;
+  font-family: 'Dongle', sans-serif;
+
+}
+.yui
+{
+  font-size: 2.4em;
+  color: yellowgreen;
+  font-family: 'Dongle', sans-serifnt;
+  margin-bottom: none;
+}
+#linksuc
+{
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+#formi
+{
+  display: inline-block;
+
+}
+#formi button
+{
+  font-family:'Dongle', sans-serif ;
+  font-size: 101%;
+}
+#formi button:hover
+{
+  cursor: pointer;
+}
+.viewpdf
+{
+    color: greenyellow;
+
+}
+#viewpdflink
+{
+
+    color: ghostwhite;
+    margin: 2em 0 2em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.displaypdf
+{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  
+}
+.bookmark
+{
+    display: flex;
+    justify-content: center;
+}
+#bookmarksubmit
+{
+    display: block;
+    margin-top: 1em;
+}
+.center
+{
+    justify-content: center;
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 0 auto;
+}
+.lists
+{
+    margin-bottom: 0.7em;
+}
+.footer1
+{
+    /* display: flex; 
+     justify-content: center; */
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 25%;
+
+}
+.title
+{
+    display: block;
+    margin: 1em;
+    font-size: 150%;
+}
+.footer-para
+{
+    
+    color: #b7b7a4;
+    
+}
+.smaller
+{
+    font-size:90%;
+    margin-top:5px;
+}
+.link-block
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: yellowgreen;
+    margin-bottom: 0.4em;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.final-para
+{
+    font-size: 90%;
+}
+.scrap
+{
+    display: flex;
+    background-color: #001219;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgsty
+{
+    margin: 50px;
+}
+#endhtwo
+{
+    color: yellowgreen;
+}

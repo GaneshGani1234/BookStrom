@@ -1,0 +1,38 @@
+body
+{
+    background-image: url("book.jpg");
+    background-size: cover;
+    color: whitesmoke;
+}
+.content
+{
+    display: inline-block;
+    height: 45em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#flexy
+{
+    display: flex;
+}
+.font
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#iframeobj
+{
+    min-width: 50%;
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #40916c;
+}
+h2
+{
+    color: #0d1b2a;
+    font-family: sans-serif;
+    scale: 200%;
+}
